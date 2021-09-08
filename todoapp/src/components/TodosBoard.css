@@ -1,0 +1,21 @@
+.todo__list {
+  background-color: var(--yellow-crayola);
+  margin: 16px;
+  padding: 16px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.todos--order1 {
+  order: 1;
+}
+
+.done--order3 {
+  order: 3;
+}
+
+.checked--order4 {
+  order: 4;
+  background-color: var(--yellow-green-crayola);
+  transition: 1000ms;
+}

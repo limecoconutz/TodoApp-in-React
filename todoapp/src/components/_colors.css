@@ -1,0 +1,13 @@
+:root {
+  --darker-sky-blue: #1e343f;
+  --dark-sky-blue: #93b5c6ff;
+  --yellow-green-crayola: #ddedaaff;
+  --yellow-crayola: #FBF4DA;
+  --strong-green-crayola: #89A824;
+  --middle-red: #d7816aff;
+  --light-popstar: #D897A9;
+}
+
+body {
+  color: var(--darker-sky-blue);
+}

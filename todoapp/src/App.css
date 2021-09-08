@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Indie+Flower&family=Montserrat&display=swap');
+@import url(./components/_colors.css);
+@import url(./components/Todo.css);
+@import url(./components/TodosBoard.css);
+@import url(./components/TodoForm.css);
+
+.container {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-header {
+  background-color: var(--dark-sky-blue);
+  height: 200px;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.heading {
+  font-family: 'Fredoka One', cursive;
+  font-size: 1em;
+}
+
+.heading--large {
+  font-size: 2em;
+}
+
+@media(min-width: 601px) {
+  .todo-header {
+    height: 300px;
+  }
+}

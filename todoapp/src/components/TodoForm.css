@@ -1,0 +1,44 @@
+.todo-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.form__input__text {
+  font-family: 'Indie Flower', cursive;
+  width: 90%;
+  padding: 12px;
+  margin: 8px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: none;
+  background-color: aliceblue;
+}
+
+.form__input__text:focus {
+  outline: none;
+  border-radius: 15px;
+  border: 3px solid var(--light-sky-blue);
+}
+
+.button__submit {
+  width: 60%;
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.2em;
+}
+
+.button__submit:hover {
+  background-color: var(--light-sky-blue);
+}
+
+@media (min-width: 601px) {
+  .todo-form {
+    width: 60%;
+  }
+
+  .form__input__text {
+    height: 60px;
+    width: 60%;
+  }
+}

@@ -1,0 +1,72 @@
+.todo {
+  order: 2;
+  position: relative;
+  background-color: var(--light-popstar);
+  margin: 8px;
+  padding: 6px;
+  width: 80%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.todo__text {
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px;
+  font-size: 0.5em;
+}
+
+.button {
+  background-color: #ffffff;
+  height: 38px;
+  width: 38px;
+  margin: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.check__button {
+  border: none;
+  color: #ffffff;
+  font-size: 1em;
+  transition: 1000ms;
+}
+
+.checked--order4 .check__button {
+  color: var(--strong-green-crayola);
+}
+
+.d-none {
+  display: none;
+}
+
+.delete__button {
+  background-color: #ffffff;
+  position: absolute;
+  right: -21px;
+  top: -25px;
+}
+
+.delete__button:hover {
+  color: var(--middle-red);
+}
+
+.delete__button--text-center {
+  margin: 0;
+  bottom: 31px;
+  right: -1px;
+}
+
+@media (min-width: 601px) {
+  .todo {
+    width: 50%;
+  }
+
+  .todo__title {
+    font-size: 1em;
+  }
+}
